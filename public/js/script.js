@@ -82,7 +82,7 @@ function update(){
             break;
         
         case 4:
-            image.src="";
+            image.src="../public/images/mother-hen.png";
             break;
         
 
