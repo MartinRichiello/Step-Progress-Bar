@@ -3,6 +3,7 @@ const progress = document.getElementById("progress");
 const prev = document.getElementById("prev");
 const next = document.getElementById("next");
 const circles = document.querySelectorAll(".circle");
+const image = document.querySelector("img");
 
 
 //Variable to count active elements
@@ -57,4 +58,35 @@ function update(){
         prev.disabled = false
         next.disabled = false
     }
+
+
+    /*if(currentActive === 1){
+        image.src ="../public/images/egg.png"
+    } else{
+        image.src = ""
+    }
+`       */
+
+    switch(currentActive){
+
+        case 1:
+            image.src ="../public/images/egg.png";
+            break;
+        
+        case 2:
+            image.src ="../public/images/littlechicken.png";
+            break;
+        
+        case 3:
+            image.src ="../public/images/hen.png";
+            break;
+        
+        case 4:
+            image.src="";
+            break;
+        
+
+    }
+
+
 }
