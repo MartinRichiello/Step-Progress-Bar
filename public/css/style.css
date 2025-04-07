@@ -18,8 +18,9 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    width: 50%;
     overflow: hidden;
-    margin: 0;
+    margin: auto;
 }
 
 .container{
@@ -27,11 +28,26 @@ body{
 
 }
 
+.img-container{
+
+    border: solid 1px white;
+    height: 50%;
+    margin-bottom: 10%;
+}
+
+img{
+
+    width:30%;
+    height:50%;
+}
+
 .progress-container {
     display: flex;
     justify-content: space-between;
     position: relative;
-    margin-bottom: 30px;
+    
+    margin: auto;
+    margin-bottom: 50px;
     max-width: 100%;
     width: 350px;
 
